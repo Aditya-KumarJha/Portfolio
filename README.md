@@ -21,7 +21,7 @@ This is a responsive, modern portfolio website built to showcase skills, project
 - Sticky/responsive navbar with:
   - Profile avatar and name
   - Hamburger menu for mobile/tablet with toggle (open/close)
-  - Download CV (conditionally visible per breakpoint)
+  - Download CV 
   - Contact link
 - Hero section with prominent heading and CTA
 - **3D animated visual elements** embedded (adds depth and personality)
