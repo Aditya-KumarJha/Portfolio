@@ -77,13 +77,15 @@ npm install
 npm run dev
 ```
 
-Runs at http://localhost:5173
-
+➕ Add Environment Variables
+Create a .env file
 ```bash
 VITE_EMAILJS_SERVICE_ID=your_service_id
 VITE_EMAILJS_TEMPLATE_ID=your_template_id
 VITE_EMAILJS_PUBLIC_KEY=your_public_key
 ```
+
+Runs at http://localhost:5173
 
 ### 8📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
