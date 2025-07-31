@@ -12,7 +12,7 @@ import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => (
-  <>
+  <div className="select-none">
     <ToastContainer position="top-right" theme="dark" />
     <Navbar />
     <Hero />
@@ -24,7 +24,7 @@ const App = () => (
     <Testimonials />
     <Contact />
     <Footer />
-  </>
+  </div>
 );
 
 export default App;
