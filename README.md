@@ -3,6 +3,10 @@
 **Shaping code into real projects that deliver results.**  
 A personal portfolio website showcasing work, skills, and a way to get in touch.
 
+## Live Demo
+
+**🔗 Check Website:** [Click Here](https://portfolio-seven-self-65.vercel.app/)
+
 ## Project Overview
 
 This is a responsive, modern portfolio website built to showcase skills, projects, and provide a contact pathway. It includes:
@@ -11,10 +15,6 @@ This is a responsive, modern portfolio website built to showcase skills, project
 - Contact form integration
 - Downloadable CV
 - 3D animation
-
-## Live Demo
-
-**🔗 Check Website:** [Click Here](https://portfolio-seven-self-65.vercel.app/)
 
 ## Features
 
@@ -77,7 +77,7 @@ npm install
 npm run dev
 ```
 
-➕ Add Environment Variables
+### 2. ➕ Add Environment Variables
 Create a .env file
 ```bash
 VITE_EMAILJS_SERVICE_ID=your_service_id
@@ -87,7 +87,7 @@ VITE_EMAILJS_PUBLIC_KEY=your_public_key
 
 Runs at http://localhost:5173
 
-### 8📄 License
+### 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## 🙏 Acknowledgements
