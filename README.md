@@ -14,7 +14,7 @@ This is a responsive, modern portfolio website built to showcase skills, project
 
 ## Live Demo
 
-**🔗 Check Website:** [Click Here](https://mentorx-2koy.onrender.com)
+**🔗 Check Website:** [Click Here](https://portfolio-seven-self-65.vercel.app/)
 
 ## Features
 
