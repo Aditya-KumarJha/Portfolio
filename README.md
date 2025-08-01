@@ -5,7 +5,7 @@ A personal portfolio website showcasing work, skills, and a way to get in touch.
 
 ## Live Demo
 
-**🔗 Check Website:** [Click Here](https://portfolio-seven-self-65.vercel.app/)
+**🔗 Check Portfolio:** [Click Here](https://portfolio-seven-self-65.vercel.app/)
 
 ## Project Overview
 

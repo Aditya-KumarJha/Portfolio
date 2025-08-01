@@ -48,7 +48,7 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" className="object-fill" />
+              <img src="/images/project1.png" alt="Ryde App Interface" className="object-fill" draggable={false} />
             </div>
             <div className="text-content">
               <h2>
@@ -70,6 +70,7 @@ const AppShowcase = () => {
                 <img
                   src="/images/project2.jpg"
                   alt="boAt-2.0"
+                  draggable={false}
                 />
               </div>
               <h2>boAt 2.0: Where Style Meets Next-Gen Tech</h2>
@@ -81,7 +82,7 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/project3.png" alt="YC Directory App" draggable={false} />
               </div>
               <h2>Refokus Clone – A Modern Web Agency Experience</h2>
               <ProjectCTA
