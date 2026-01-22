@@ -52,14 +52,14 @@ const AppShowcase = () => {
             </div>
             <div className="text-content">
               <h2>
-                Mentorship at Your Fingertips with MentorX.
+                Your Skills. Verified. Future-Ready with Credexa.
               </h2>
               <p className="text-white-50 md:text-xl">
-                A fast, user-friendly web app built with React & TailwindCSS on the frontend, powered by Node.js, Express, and MongoDB on the backend.
+                A smart credential ecosystem that unifies learning records, verifies authenticity, and transforms skills into career-ready insights using AI and blockchain.
               </p>
               <ProjectCTA
-                websiteUrl="https://mentorx-2koy.onrender.com/"
-                codeUrl="https://github.com/Aditya-KumarJha/MentorX"
+                websiteUrl="https://credexa.vercel.app/"
+                codeUrl="https://github.com/Aditya-KumarJha/Credexa"
               />
             </div>
           </div>
@@ -68,26 +68,26 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.jpg"
-                  alt="boAt-2.0"
+                  src="/images/project2.png"
+                  alt="GigFlow"
                   draggable={false}
                 />
               </div>
-              <h2>boAt 2.0: Where Style Meets Next-Gen Tech</h2>
+              <h2>GigFlow: A Production-Grade Freelance Marketplace Built for Scale</h2>
               <ProjectCTA
-                websiteUrl="https://boat-20.vercel.app/"
-                codeUrl="https://github.com/Aditya-KumarJha/Boat---2.O"
+                websiteUrl="https://gig-flow-theta.vercel.app/"
+                codeUrl="https://github.com/Aditya-KumarJha/GigFlow"
               />
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" draggable={false} />
+                <img src="/images/project3.png" alt="MentorX App" draggable={false} />
               </div>
-              <h2>Refokus Clone – A Modern Web Agency Experience</h2>
+              <h2>Mentorship at Your Fingertips with MentorX.</h2>
               <ProjectCTA
-                websiteUrl="https://refokus-faol.vercel.app/"
-                codeUrl="https://github.com/Aditya-KumarJha/Refokus"
+                websiteUrl="https://mentorx-2koy.onrender.com/"
+                codeUrl="https://github.com/Aditya-KumarJha/MentorX"
               />
             </div>
           </div>

@@ -1,5 +1,6 @@
 import * as SiIcons from "react-icons/si";
-import { FaInstagram, FaFacebookF, FaXTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa6";
+import { FaInstagram, FaFacebookF, FaXTwitter, FaLinkedinIn, FaGithub, FaAws } from "react-icons/fa6";
+import { TbBrandSocketIo } from "react-icons/tb";
 
 const navLinks = [
   {
@@ -32,10 +33,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 8, suffix: "+", label: "Personal & Academic Projects" },
+  { value: 15, suffix: "+", label: "Personal & Academic Projects" },
   { value: 5, suffix: "+", label: "Hackathons Finalist" },
   { value: 20, suffix: "+", label: "Technologies Learned" },
-  { value: 150, suffix: "+", label: "GitHub Contributions 2025" },
+  { value: 500, suffix: "+", label: "GitHub Contributions 2025" },
 ];
 
 const logoIconsList = [
@@ -129,54 +130,111 @@ const skillList = [
   "HTML",
   "CSS",
   "SCSS",
-  "JavaScript",
-  "React",
-  "TypeScript",
-  "Next.js",
-  "Tailwind CSS",
   "Bootstrap",
-  "Node.js",
-  "Express.js",
-  "MongoDB",
-  "PostgreSQL",
-  "MS SQL",
+  "Tailwind CSS",
+
+  "JavaScript",
+  "TypeScript",
   "Python",
   "Java",
   "C",
   "C++",
+
+  "React",
+  "Next.js",
+  "Redux Toolkit",
+  "Framer Motion",
+  "GSAP",
+
+  "Node.js",
+  "Express.js",
+  "REST APIs",
+  "JWT Authentication",
+  "OAuth (Google, GitHub)",
+
+  "MongoDB",
+  "PostgreSQL",
+  "My SQL",
+  "Prisma",
+  "Firebase",
+  "Supabase",
+
+  "AWS",
+  "Docker",
+
+  "RabbitMQ",
+  "Socket.IO",
+
   "Git",
+  "GitHub",
   "VS Code",
-  "Flask",
   "Vercel",
   "Render",
   "Netlify",
+
+  "MongoDB Transactions",
+  "Rate Limiting",
+  "Web Security (Helmet, CORS)"
 ];
 
 const skillIconMap = {
+  // Markup & Styling
   HTML: SiIcons.SiHtml5,
   CSS: SiIcons.SiCss3,
   SCSS: SiIcons.SiSass,
-  JavaScript: SiIcons.SiJavascript,
-  React: SiIcons.SiReact,
-  TypeScript: SiIcons.SiTypescript,
-  "Next.js": SiIcons.SiNextdotjs,
-  "Tailwind CSS": SiIcons.SiTailwindcss,
   Bootstrap: SiIcons.SiBootstrap,
-  "Node.js": SiIcons.SiNodedotjs,
-  "Express.js": SiIcons.SiExpress,
-  MongoDB: SiIcons.SiMongodb,
-  PostgreSQL: SiIcons.SiPostgresql,
-  "MS SQL": SiIcons.SiMicrosoftsqlserver,
+  "Tailwind CSS": SiIcons.SiTailwindcss,
+
+  // Languages
+  JavaScript: SiIcons.SiJavascript,
+  TypeScript: SiIcons.SiTypescript,
   Python: SiIcons.SiPython,
   Java: SiIcons.SiJava,
   C: SiIcons.SiC,
   "C++": SiIcons.SiCplusplus,
+
+  // Frontend
+  React: SiIcons.SiReact,
+  "Next.js": SiIcons.SiNextdotjs,
+  "Redux Toolkit": SiIcons.SiRedux,
+  "Framer Motion": SiIcons.SiFramer,
+  GSAP: SiIcons.SiGreensock,
+
+  // Backend
+  "Node.js": SiIcons.SiNodedotjs,
+  "Express.js": SiIcons.SiExpress,
+  "REST APIs": SiIcons.SiPostman,
+  "JWT Authentication": SiIcons.SiJsonwebtokens,
+  "OAuth (Google, GitHub)": SiIcons.SiOauth,
+
+  // Databases & ORMs
+  MongoDB: SiIcons.SiMongodb,
+  PostgreSQL: SiIcons.SiPostgresql,
+  MySQL: SiIcons.SiMysql,
+  Prisma: SiIcons.SiPrisma,
+  Firebase: SiIcons.SiFirebase,
+  Supabase: SiIcons.SiSupabase,
+
+  // Cloud & DevOps
+  AWS: FaAws,
+  Docker: SiIcons.SiDocker,
+
+  // Messaging & Realtime
+  RabbitMQ: SiIcons.SiRabbitmq,
+  "Socket.IO": TbBrandSocketIo,
+
+  // Tools & Platforms
   Git: SiIcons.SiGit,
+  GitHub: SiIcons.SiGithub,
   "VS Code": SiIcons.SiVisualstudiocode,
-  Flask: SiIcons.SiFlask,
   Vercel: SiIcons.SiVercel,
   Render: SiIcons.SiRender,
   Netlify: SiIcons.SiNetlify,
+
+  // Concepts (generic icons)
+  "MongoDB Transactions": SiIcons.SiMongodb,
+  "Rate Limiting": SiIcons.SiSpeedtest,
+  "Web Security (Helmet, CORS)": SiIcons.SiSecurity,
 };
 
 const expCards = [
@@ -214,6 +272,19 @@ const expCards = [
       "Developed and hosted projects using MERN stack and REST APIs.",
       "Implemented authentication, CRUD operations, and responsive UIs.",
       "Explored new tools and libraries to improve project performance.",
+    ],
+  },
+  {
+    review: "Worked as a Frontend Developer Intern at Code-X-Novas, contributing to real-world web applications and collaborating with developers to build scalable, user-friendly interfaces.",
+    imgPath: "/images/code_x_novas.jpeg",
+    logoPath: "/images/code-x-novas.jpeg",
+    title: "Frontend Developer Intern – Code-X-Novas",
+    date: "2025 Oct - Dec",
+    responsibilities: [
+      "Developed and optimized responsive UI components using React and Tailwind CSS.",
+      "Collaborated with backend developers to integrate APIs and dynamic data.",
+      "Improved performance, accessibility, and cross-browser compatibility.",
+      "Followed best practices in clean code, component reusability, and version control.",
     ],
   },
 ];
