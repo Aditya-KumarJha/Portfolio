@@ -24,7 +24,7 @@ const NavBar = () => {
       <div className="inner flex justify-between items-center">
         <a href="#hero" className="logo flex items-center gap-2">
           <img
-            src="/images/profile.jpeg"
+            src="/images/ui/profile.jpeg"
             alt="Aditya's photo"
             className="w-8 h-8 md:w-18 md:h-18 rounded-full object-cover"
           />
@@ -46,7 +46,7 @@ const NavBar = () => {
 
         <div className="flex items-center gap-4">
           <a
-            href="/images/Resume.docx"
+            href="/images/docs/Resume.docx"
             download="Aditya-Kumar-Jha-Resume.docx"
             className="contact-btn group md:block lg:hidden"
           >
@@ -71,7 +71,7 @@ const NavBar = () => {
           </a>
 
           <a
-            href="/images/Resume.docx"
+            href="/images/docs/Resume.docx"
             download="Aditya-Kumar-Jha-Resume.docx"
             className="contact-btn group hidden md:block"
           >
@@ -107,7 +107,7 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="/images/Resume.docx"
+                href="/images/docs/Resume.docx"
                 download="Aditya-Kumar-Jha-Resume.docx"
                 onClick={() => setMenuOpen(false)}
                 className="text-base font-medium"

@@ -22,14 +22,14 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: "/images/icons/ideas.svg" },
+  { text: "Concepts", imgPath: "/images/icons/concepts.svg" },
+  { text: "Designs", imgPath: "/images/icons/designs.svg" },
+  { text: "Code", imgPath: "/images/icons/code.svg" },
+  { text: "Ideas", imgPath: "/images/icons/ideas.svg" },
+  { text: "Concepts", imgPath: "/images/icons/concepts.svg" },
+  { text: "Designs", imgPath: "/images/icons/designs.svg" },
+  { text: "Code", imgPath: "/images/icons/code.svg" },
 ];
 
 const counterItems = [
@@ -77,17 +77,17 @@ const logoIconsList = [
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
+    imgPath: "/images/icons/seo.png",
     title: "Quality Focus",
     desc: "Delivering high-quality results while maintaining attention to every detail.",
   },
   {
-    imgPath: "/images/chat.png",
+    imgPath: "/images/icons/chat.png",
     title: "Reliable Communication",
     desc: "Keeping you updated at every step to ensure transparency and clarity.",
   },
   {
-    imgPath: "/images/time.png",
+    imgPath: "/images/icons/time.png",
     title: "On-Time Delivery",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
@@ -240,8 +240,8 @@ const skillIconMap = {
 const expCards = [
   {
     review: "Built multiple web projects during college, focusing on clean UI and responsive designs. Gained hands-on experience with modern frontend technologies.",
-    imgPath: "/images/logo.png",
-    logoPath: "/images/logo.png",
+    imgPath: "/images/exp/logo.png",
+    logoPath: "/images/exp/logo.png",
     title: "Frontend Projects",
     date: "2023 - Present",
     responsibilities: [
@@ -252,8 +252,8 @@ const expCards = [
   },
   {
     review: "Actively participated in hackathons, solving real-world problems and building working prototypes under tight deadlines.",
-    imgPath: "/images/hackathon.png",
-    logoPath: "/images/hackathon.png",
+    imgPath: "/images/exp/hackathon.png",
+    logoPath: "/images/exp/hackathon.png",
     title: "Hackathon & Coding Experience",
     date: "2024 - Present",
     responsibilities: [
@@ -264,8 +264,8 @@ const expCards = [
   },
   {
     review: "Created several personal projects that demonstrate full-stack development skills and practical application of concepts learned in college.",
-    imgPath: "/images/mern.png",
-    logoPath: "/images/mern.png",
+    imgPath: "/images/exp/mern.png",
+    logoPath: "/images/exp/mern.png",
     title: "Personal Projects",
     date: "2025 - Present",
     responsibilities: [
@@ -276,8 +276,8 @@ const expCards = [
   },
   {
     review: "Worked as a Frontend Developer Intern at Code-X-Novas, contributing to real-world web applications and collaborating with developers to build scalable, user-friendly interfaces.",
-    imgPath: "/images/code_x_novas.jpeg",
-    logoPath: "/images/code-x-novas.jpeg",
+    imgPath: "/images/exp/code_x_novas.jpeg",
+    logoPath: "/images/exp/code-x-novas.jpeg",
     title: "Frontend Developer Intern – Code-X-Novas",
     date: "2025 Oct - Dec",
     responsibilities: [
@@ -292,15 +292,15 @@ const expCards = [
 const expLogos = [
   {
     name: "logo1",
-    imgPath: "/images/logo1.png",
+    imgPath: "/images/exp/logo1.png",
   },
   {
     name: "logo2",
-    imgPath: "/images/logo2.png",
+    imgPath: "/images/exp/logo2.png",
   },
   {
     name: "logo3",
-    imgPath: "/images/logo3.png",
+    imgPath: "/images/exp/logo3.png",
   },
 ];
 
@@ -309,37 +309,37 @@ const testimonials = [
     name: "Project Mentor",
     review:
       "Quickly grasped complex requirements and turned them into working prototypes. Demonstrated initiative, clean code practices, and a strong ability to iterate based on feedback.",
-    imgPath: "/images/client1.png",
+    imgPath: "/images/testimonials/client1.png",
   },
   {
     name: "Hackathon Teammate",
     review:
       "Collaborating on a tight deadline, they kept the team focused, contributed core features, and adapted to changing scope without losing quality. Their problem-solving under pressure stood out.",
-    imgPath: "/images/client3.png",
+    imgPath: "/images/testimonials/client3.png",
   },
   {
     name: "Course Instructor",
     review:
       "Consistently submitted thoughtful, well-engineered projects. Showed growth in full-stack concepts, version control workflows, and an eagerness to help peers understand difficult topics.",
-    imgPath: "/images/client2.png",
+    imgPath: "/images/testimonials/client2.png",
   },
   {
     name: "Open Source Maintainer",
     review:
       "Provided valuable contributions with clear pull requests, good documentation, and respectful communication. Helped improve project stability and showed a solid grasp of collaboration on public repos.",
-    imgPath: "/images/client5.png",
+    imgPath: "/images/testimonials/client5.png",
   },
   {
     name: "Peer Collaborator",
     review:
       "Great communicator and reliable teammate. Took ownership of frontend features, ensured responsive design, and helped debug tricky integration issues, making the whole project smoother.",
-    imgPath: "/images/client4.png",
+    imgPath: "/images/testimonials/client4.png",
   },
   {
     name: "Project Reviewer",
     review:
      "Built impressive personal projects demonstrating clean UI, responsive design, and smooth functionality. Shows a clear interest in practical development.",
-    imgPath: "/images/client6.png",
+    imgPath: "/images/testimonials/client6.png",
   },
 ];
 
