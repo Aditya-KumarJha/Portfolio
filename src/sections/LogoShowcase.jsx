@@ -1,4 +1,17 @@
 import { logoIconsList } from "../constants";
+import SEO from "../components/SEO";
+
+const logoKeywords = [
+  "technologies used",
+  "tech stack",
+  "frameworks",
+  "tools and platforms",
+  "development tools",
+  "Aditya Kumar Jha",
+  "experienced with",
+  "technology partnerships",
+  "web development tools"
+];
 
 const LogoIcon = ({ icon }) => {
   return (
@@ -9,7 +22,14 @@ const LogoIcon = ({ icon }) => {
 };
 
 const LogoShowcase = () => (
-  <div className="md:my-20 my-10 relative">
+  <SEO
+    title="Technologies & Tools | Aditya Kumar Jha Portfolio"
+    description="Technologies and tools I work with including React, Node.js, Python, MongoDB, and modern web development frameworks."
+    keywords={logoKeywords}
+    id="logo-showcase"
+    className="md:my-20 my-10 relative"
+    component="div"
+  >
     <div className="gradient-edge" />
     <div className="gradient-edge" />
 
@@ -24,7 +44,7 @@ const LogoShowcase = () => (
         ))}
       </div>
     </div>
-  </div>
+  </SEO>
 );
 
 export default LogoShowcase;

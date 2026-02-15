@@ -1,8 +1,27 @@
 import { socialImgs } from "../constants";
+import SEO from "../components/SEO";
+
+const footerKeywords = [
+  "Aditya Kumar Jha",
+  "contact information",
+  "social media",
+  "GitHub",
+  "LinkedIn",
+  "developer contact",
+  "portfolio footer",
+  "connect with developer",
+  "social links"
+];
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <SEO
+      title="Footer - Connect with Aditya Kumar Jha"
+      description="Connect with Aditya Kumar Jha on GitHub, LinkedIn, Twitter, Instagram. Full Stack Developer portfolio and social links."
+      keywords={footerKeywords}
+      component="footer"
+      className="footer"
+    >
       <div className="footer-container">
         <div className="flex flex-col justify-center">
           <p>Terms & Conditions</p>
@@ -31,7 +50,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
+    </SEO>
   );
 };
 

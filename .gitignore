@@ -23,3 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 .env
+
+SEO_ACTION_CHECKLIST.md
+SEO_GUIDE.md

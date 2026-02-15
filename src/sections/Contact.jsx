@@ -4,6 +4,8 @@ import { toast } from "react-toastify";
 
 import TitleHeader from "../components/TitleHeader";
 import ContactExperience from "../components/models/contact/ContactExperience";
+import SEO, { createContactSchema } from "../components/SEO";
+import { seoKeywords, seoDescriptions, seoTitles } from "../constants/seoKeywords";
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -41,8 +43,17 @@ const Contact = () => {
     }
   };
 
+  const contactSchema = createContactSchema();
+
   return (
-    <section id="contact" className="flex-center section-padding">
+    <SEO
+      title={seoTitles.contact}
+      description={seoDescriptions.contact}
+      keywords={seoKeywords.contact}
+      schema={contactSchema}
+      id="contact"
+      className="flex-center section-padding"
+    >
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
           title="Get in Touch – Let’s Connect"
@@ -116,7 +127,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
+    </SEO>
   );
 };
 

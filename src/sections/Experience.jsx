@@ -5,6 +5,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { expCards } from "../constants";
 import TitleHeader from "../components/TitleHeader";
 import GlowCard from "../components/GlowCard";
+import SEO from "../components/SEO";
+import { seoKeywords, seoDescriptions, seoTitles } from "../constants/seoKeywords";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -54,7 +56,10 @@ const Experience = () => {
   }, []);
 
   return (
-    <section
+    <SEO
+      title={seoTitles.experience}
+      description={seoDescriptions.experience}
+      keywords={seoKeywords.experience}
       id="experience"
       className="flex-center md:mt-40 mt-20 section-padding xl:px-0"
     >
@@ -110,7 +115,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-    </section>
+    </SEO>
   );
 };
 

@@ -1,10 +1,18 @@
 import { testimonials } from "../constants";
 import TitleHeader from "../components/TitleHeader";
 import GlowCard from "../components/GlowCard";
+import SEO from "../components/SEO";
+import { seoKeywords, seoDescriptions, seoTitles } from "../constants/seoKeywords";
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="flex-center section-padding">
+    <SEO
+      title={seoTitles.testimonials}
+      description={seoDescriptions.testimonials}
+      keywords={seoKeywords.testimonials}
+      id="testimonials"
+      className="flex-center section-padding"
+    >
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
           title="What People Say About Me?"
@@ -27,7 +35,7 @@ const Testimonials = () => {
           ))}
         </div>
       </div>
-    </section>
+    </SEO>
   );
 };
 

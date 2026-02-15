@@ -6,6 +6,8 @@ import TechIconCardExperience from "../components/models/tech_logos/TechIconCard
 import { techStackIcons } from "../constants";
 import { skillList } from "../constants";
 import { skillIconMap } from "../constants";
+import SEO, { createSkillSchema } from "../components/SEO";
+import { seoKeywords, seoDescriptions, seoTitles } from "../constants/seoKeywords";
 
 const TechStack = () => {
   useGSAP(() => {
@@ -29,8 +31,18 @@ const TechStack = () => {
     );
   });
 
+  const skillSchema = createSkillSchema(skillList);
+
   return (
-    <div id="skills" className="flex-center section-padding">
+    <SEO
+      title={seoTitles.skills}
+      description={seoDescriptions.skills}
+      keywords={seoKeywords.skills}
+      schema={skillSchema}
+      id="skills"
+      className="flex-center section-padding"
+      component="div"
+    >
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
           title="How I Can Contribute & My Key Skills"
@@ -77,7 +89,7 @@ const TechStack = () => {
           </div>
         </div>
       </div>
-    </div>
+    </SEO>
   );
 };
 

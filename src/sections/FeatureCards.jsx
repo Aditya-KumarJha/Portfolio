@@ -1,7 +1,30 @@
 import { abilities } from "../constants";
+import SEO from "../components/SEO";
+
+const featureKeywords = [
+  "quality focus",
+  "reliable communication",
+  "on-time delivery",
+  "professional developer",
+  "attention to detail",
+  "project management",
+  "client communication",
+  "deadline oriented",
+  "Aditya Kumar Jha",
+  "professional qualities",
+  "web development services",
+  "developer work ethic"
+];
 
 const FeatureCards = () => (
-  <div className="w-full padding-x-lg">
+  <SEO
+    title="Professional Qualities - What I Bring | Aditya Kumar Jha"
+    description="Quality-focused full stack developer with reliable communication and on-time delivery. Professional approach to web development projects."
+    keywords={featureKeywords}
+    id="features"
+    className="w-full padding-x-lg"
+    component="div"
+  >
     <div className="mx-auto grid-3-cols">
       {abilities.map(({ imgPath, title, desc }) => (
         <div
@@ -16,7 +39,7 @@ const FeatureCards = () => (
         </div>
       ))}
     </div>
-  </div>
+  </SEO>
 );
 
 export default FeatureCards;

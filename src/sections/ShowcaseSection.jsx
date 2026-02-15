@@ -3,6 +3,8 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import ProjectCTA from "../components/ProjectCTA";
+import SEO from "../components/SEO";
+import { seoKeywords, seoDescriptions, seoTitles } from "../constants/seoKeywords";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -53,8 +55,15 @@ const AppShowcase = () => {
   }, []);
 
   return (
-    <div id="work" ref={sectionRef} className="app-showcase">
-      <div className="w-full">
+    <SEO
+      title={seoTitles.projects}
+      description={seoDescriptions.projects}
+      keywords={seoKeywords.projects}
+      id="work"
+      className="app-showcase"
+      component="div"
+    >
+      <div ref={sectionRef} className="w-full">
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
@@ -158,7 +167,7 @@ const AppShowcase = () => {
           </div>
         </div>
       </div>
-    </div>
+    </SEO>
   );
 };
 

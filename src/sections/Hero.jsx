@@ -5,6 +5,8 @@ import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience";
+import SEO from "../components/SEO";
+import { seoKeywords, seoDescriptions, seoTitles } from "../constants/seoKeywords";
 
 const Hero = () => {
   useGSAP(() => {
@@ -16,9 +18,15 @@ const Hero = () => {
   });
 
   return (
-    <section id="hero" className="relative overflow-hidden">
+    <SEO
+      title={seoTitles.hero}
+      description={seoDescriptions.hero}
+      keywords={seoKeywords.hero}
+      id="hero"
+      className="relative overflow-hidden"
+    >
       <div className="absolute top-0 left-0 z-10">
-        <img src="/images/hero/bg.png" alt="" />
+        <img src="/images/hero/bg.png" alt="Aditya Kumar Jha Portfolio Background" />
       </div>
 
       <div className="hero-layout">
@@ -69,7 +77,7 @@ const Hero = () => {
       </div>
 
       <AnimatedCounter />
-    </section>
+    </SEO>
   );
 };
 
