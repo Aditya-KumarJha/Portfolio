@@ -150,7 +150,7 @@ const AppShowcase = () => {
                 />
               </div>
               <h2>Sitara HydroNutri: A Client Website Built for Business Growth</h2>
-              <ProjectCTA websiteUrl="https://www.sitarahydronutri.in" codeUrl="https://github.com/Code-X-Novas/Sitara_hydronutri" />
+              <ProjectCTA websiteUrl="https://www.sitarahydronutri.in" codeUrl="https://github.com/Aditya-KumarJha/Sitara" />
             </div>
 
             <div className="project" ref={refokusRef}>
