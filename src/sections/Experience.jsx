@@ -87,7 +87,26 @@ const Experience = () => {
                     </div>
                     <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
                       <div className="timeline-logo">
-                        <img src={card.logoPath} alt="logo" draggable={false} />
+                        {card.logoLink ? (
+                          <a
+                            href={card.logoLink}
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label={`${card.title} website`}
+                          >
+                            <img
+                              src={card.logoPath}
+                              alt="logo"
+                              draggable={false}
+                            />
+                          </a>
+                        ) : (
+                          <img
+                            src={card.logoPath}
+                            alt="logo"
+                            draggable={false}
+                          />
+                        )}
                       </div>
                       <div>
                         <h1 className="font-semibold text-3xl">{card.title}</h1>

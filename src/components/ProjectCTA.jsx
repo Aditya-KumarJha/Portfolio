@@ -14,7 +14,7 @@ const AnimatedCTA = ({ href, children, Icon, variant = "solid" }) => {
       rel="noopener noreferrer"
       className={`${base} ${bg} group`}
     >
-      <span className="absolute inset-0 rounded-lg bg-gradient-to-r from-white/5 to-white/0 opacity-0 scale-90 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300 pointer-events-none" />
+      <span className="absolute inset-0 rounded-lg bg-linear-to-r from-white/5 to-white/0 opacity-0 scale-90 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300 pointer-events-none" />
       <span className="relative flex items-center z-10">
         <Icon
           className="w-5 h-5 transform transition-transform duration-300 group-hover:translate-x-1"

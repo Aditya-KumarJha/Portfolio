@@ -46,8 +46,8 @@ const NavBar = () => {
 
         <div className="flex items-center gap-4">
           <a
-            href="/images/docs/Resume.docx"
-            download="Aditya-Kumar-Jha-Resume.docx"
+            href="/images/docs/Aditya_Kumar_Jha_Resume.pdf"
+            download="Aditya_Kumar_Jha_Resume.pdf"
             className="contact-btn group md:block lg:hidden"
           >
             <div className="inner">
@@ -71,8 +71,8 @@ const NavBar = () => {
           </a>
 
           <a
-            href="/images/docs/Resume.docx"
-            download="Aditya-Kumar-Jha-Resume.docx"
+            href="/images/docs/Aditya_Kumar_Jha_Resume.pdf"
+            download="Aditya_Kumar_Jha_Resume.pdf"
             className="contact-btn group hidden md:block"
           >
             <div className="inner">
@@ -107,8 +107,8 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="/images/docs/Resume.docx"
-                download="Aditya-Kumar-Jha-Resume.docx"
+                href="/images/docs/Aditya_Kumar_Jha_Resume.pdf"
+                download="Aditya_Kumar_Jha_Resume.pdf"
                 onClick={() => setMenuOpen(false)}
                 className="text-base font-medium"
               >

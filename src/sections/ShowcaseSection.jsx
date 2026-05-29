@@ -13,7 +13,10 @@ const AppShowcase = () => {
   const rydeRef = useRef(null);
   const libraryRef = useRef(null);
   const ycDirectoryRef = useRef(null);
+  const testlyRef = useRef(null);
   const taskcoRef = useRef(null);
+  const skillloopRef = useRef(null);
+  const intellilibRef = useRef(null);
   const sitaraRef = useRef(null);
   const refokusRef = useRef(null);
 
@@ -28,7 +31,10 @@ const AppShowcase = () => {
       rydeRef.current,
       libraryRef.current,
       ycDirectoryRef.current,
+      testlyRef.current,
       taskcoRef.current,
+      skillloopRef.current,
+      intellilibRef.current,
       sitaraRef.current,
       refokusRef.current,
     ];
@@ -122,21 +128,70 @@ const AppShowcase = () => {
         </div>
 
         <div className="showcaselayout mt-10">
-          <div ref={taskcoRef} className="first-project-wrapper">
+          <div ref={testlyRef} className="first-project-wrapper">
             <div className="image-wrapper">
               <img
-                src="/images/projects/project4.png"
-                alt="TaskCo App"
+                src="/images/projects/project7.png"
+                alt="Testly App"
                 className="object-fill"
                 draggable={false}
               />
             </div>
             <div className="text-content">
-              <h2>TaskCo: A Minimal Task Manager for Productivity</h2>
+              <h2>Testly: AI-Powered Test Generation for Your GitHub Repos</h2>
               <p className="text-white-50 md:text-xl">
-                A clean full-stack task manager to create, organize, and track tasks by priority with smooth modern animations.
+                Connect your GitHub, let AI analyze your codebase, generate smart test cases, and run them with a streamlined workflow.
               </p>
+              <ProjectCTA websiteUrl="https://testly-ai.vercel.app/" codeUrl="https://github.com/Aditya-KumarJha/Testly" />
+            </div>
+          </div>
+
+          <div className="project-list-wrapper overflow-hidden">
+            <div className="project" ref={taskcoRef}>
+              <div className="image-wrapper bg-[#E8F5FF]">
+                <img
+                  src="/images/projects/project4.png"
+                  alt="TaskCo App"
+                  draggable={false}
+                />
+              </div>
+              <h2>TaskCo: A Minimal Task Manager for Productivity</h2>
               <ProjectCTA websiteUrl="https://taskco-zeta.vercel.app" codeUrl="https://github.com/Aditya-KumarJha/Taskco" />
+            </div>
+
+            <div className="project" ref={skillloopRef}>
+              <div className="image-wrapper bg-[#FFF0F6]">
+                <img
+                  src="/images/projects/project9.png"
+                  alt="Skill Loop"
+                  draggable={false}
+                />
+              </div>
+              <h2>Skill Loop: A Career Growth Platform for Learners and Teams</h2>
+              <p className="mt-3 text-xs uppercase tracking-widest text-white/60">
+                Built during my internship at Code-X-Novas. All rights belong to the Code-X-Novas & Skill Loop team.
+              </p>
+              <ProjectCTA websiteUrl="https://skillloop.co.in/" />
+            </div>
+          </div>
+        </div>
+
+        <div className="showcaselayout mt-10">
+          <div ref={intellilibRef} className="first-project-wrapper">
+            <div className="image-wrapper">
+              <img
+                src="/images/projects/project8.png"
+                alt="IntelliLib"
+                className="object-fill"
+                draggable={false}
+              />
+            </div>
+            <div className="text-content">
+              <h2>IntelliLib: AI-Enabled Library Management System</h2>
+              <p className="text-white-50 md:text-xl">
+                An intelligent library platform that streamlines cataloging, lending, and discovery with smart automation.
+              </p>
+              <ProjectCTA websiteUrl="https://intellilib-hitk.vercel.app/" codeUrl="https://github.com/Aditya-KumarJha/intellilib" />
             </div>
           </div>
 
@@ -150,7 +205,10 @@ const AppShowcase = () => {
                 />
               </div>
               <h2>Sitara HydroNutri: A Client Website Built for Business Growth</h2>
-              <ProjectCTA websiteUrl="https://www.sitarahydronutri.in" codeUrl="https://github.com/Aditya-KumarJha/Sitara" />
+              <p className="mt-3 text-xs uppercase tracking-widest text-white/60">
+                Built during my internship at Code-X-Novas. All rights belong to the Code-X-Novas & Sitara HydroNutri team.
+              </p>
+              <ProjectCTA websiteUrl="https://www.sitarahydronutri.in" />
             </div>
 
             <div className="project" ref={refokusRef}>

@@ -156,11 +156,11 @@ export const seoKeywords = {
  * Used in meta tags and structured data
  */
 export const seoDescriptions = {
-  hero: "Aditya Kumar Jha - Full Stack Developer specializing in React, Node.js, and Python. Creating innovative web solutions with modern technologies. View my portfolio of 15+ projects and 500+ GitHub contributions.",
+  hero: "Aditya Kumar Jha - Full Stack Developer specializing in React, Node.js, and Python. Creating innovative web solutions with modern technologies. View my portfolio of 25+ projects and 500+ GitHub contributions.",
   
   projects: "Explore innovative web development projects built with React, Node.js, Python, and MERN stack. Real-world applications featuring responsive design, interactive UIs, and modern web technologies.",
   
-  experience: "Professional experience as Frontend Developer Intern at Code-X-Novas, hackathon finalist, and creator of 15+ personal projects. Expertise in full-stack development and team collaboration.",
+  experience: "Professional experience as Frontend Developer Intern at Code-X-Novas, hackathon finalist, and creator of 25+ personal projects. Expertise in full-stack development and team collaboration.",
   
   skills: "Technical expertise in React.js, Node.js, Python, JavaScript, TypeScript, MongoDB, PostgreSQL, Three.js, GSAP, Tailwind CSS, Docker, AWS, and 20+ modern web development technologies.",
   

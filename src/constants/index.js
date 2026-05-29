@@ -33,8 +33,8 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Personal & Academic Projects" },
-  { value: 5, suffix: "+", label: "Hackathons Finalist" },
+  { value: 25, suffix: "+", label: "Personal & Academic Projects" },
+  { value: 8, suffix: "+", label: "Hackathons Finalist" },
   { value: 20, suffix: "+", label: "Technologies Learned" },
   { value: 500, suffix: "+", label: "GitHub Contributions 2025" },
 ];
@@ -275,16 +275,30 @@ const expCards = [
     ],
   },
   {
-    review: "Worked as a Frontend Developer Intern at Code-X-Novas, contributing to real-world web applications and collaborating with developers to build scalable, user-friendly interfaces.",
+    review: "Worked as a Full Stack Developer Intern at Code-X-Novas, contributing to real-world web applications and collaborating with developers to build scalable, user-friendly interfaces.",
     imgPath: "/images/exp/code_x_novas.jpeg",
     logoPath: "/images/exp/code-x-novas.jpeg",
-    title: "Frontend Developer Intern – Code-X-Novas",
-    date: "2025 Oct - Dec",
+    logoLink: "https://www.codexnovas.in/",
+    title: "Full Stack Developer Intern – Code-X-Novas",
+    date: "2025 Oct - 2026 Mar",
     responsibilities: [
       "Developed and optimized responsive UI components using React and Tailwind CSS.",
       "Collaborated with backend developers to integrate APIs and dynamic data.",
       "Improved performance, accessibility, and cross-browser compatibility.",
       "Followed best practices in clean code, component reusability, and version control.",
+    ],
+  },
+  {
+    review: "Contributed as a React.js Developer Intern at Engineer Diaries, collaborating with backend and design teams to deliver clean, user-centric interfaces aligned with product goals.",
+    imgPath: "/images/exp/EngineerDiaries.jpeg",
+    logoPath: "/images/exp/EngineerDiaries.jpeg",
+    logoLink: "https://www.engineerdiaries.com/",
+    title: "React.js Developer Intern – Engineer Diaries (Startup)",
+    date: "Mar 2026 - May 2026",
+    responsibilities: [
+      "Collaborated with backend and design teams to deliver clean, user-centric interfaces aligned with product goals.",
+      "Optimized frontend performance using lazy loading, code splitting, and efficient state management techniques.",
+      "Implemented smooth scroll, reveal animations, and modern UI transitions to improve overall user experience and visual appeal.",
     ],
   },
 ];

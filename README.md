@@ -5,7 +5,7 @@ A personal portfolio website showcasing work, skills, and a way to get in touch.
 
 ## Live Demo
 
-**🔗 Check Portfolio:** [Click Here](https://portfolio-seven-self-65.vercel.app/)
+**🔗 Check Portfolio:** [Click Here](https://adityajha.qzz.io/)
 
 ## Project Overview
 
@@ -65,10 +65,10 @@ This is a responsive, modern portfolio website built to showcase skills, project
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/MentorX.git
+git clone https://github.com/Aditya-KumarJha/Portfolio.git
 ```
 ```bash
-cd MentorX
+cd Portfolio
 ```
 ```bash
 npm install
